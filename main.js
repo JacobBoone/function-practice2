@@ -53,3 +53,22 @@ console.log(totalLetters(['what', 'happened', 'to', 'my', 'function']))
 
 
 
+//  -------Part 3 --------
+
+
+var keyValue = function(key,value){
+	// variable o = and object
+	var o ={};
+	// setting the key in and array to except / Show a value????
+	o[key] = value;
+	return o
+
+}
+//  Passes the first entry to the KEY and the second to the Value of the Key
+console.log(keyValue('city', 'Denver'))
+
+
+
+
+
+
