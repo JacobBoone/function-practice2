@@ -6,6 +6,8 @@ console.log('Test Runner - If no errors, all asserts passed.');
 // $(document).on('ready', function() { 
 
 // ----------- PART 1 ---------
+console.log('PART 1------------')
+
 var getName = function(o) {
 	return [o.name, o.age]
 
@@ -24,7 +26,7 @@ console.log(getName({ name: 'Luisa', age: 25 }))
 // ----------------   part 2 -------------------
 
 // Solution #1
-
+console.log('PART 2------------')
 var totalLetters = function(a){
 
 	var lettersJoined = a.join('')
@@ -55,7 +57,7 @@ console.log(totalLetters(['what', 'happened', 'to', 'my', 'function']))
 
 //  -------Part 3 --------
 
-
+console.log('PART 3------------')
 var keyValue = function(key,value){
 	// variable o = and object
 	var o ={};
@@ -66,6 +68,74 @@ var keyValue = function(key,value){
 }
 //  Passes the first entry to the KEY and the second to the Value of the Key
 console.log(keyValue('city', 'Denver'))
+
+
+//  -------Part 4 --------
+
+console.log('PART 4------------')
+
+
+
+var negativeIndex = function(arr,num){
+
+	
+	var value = arr.length+num;
+	// var value = num+arr.length;
+
+
+	return arr[value];
+}
+
+console.log(negativeIndex(['a', 'b', 'c', 'd', 'e'], -2))
+console.log(negativeIndex(['jerry', 'sarah', 'sally'], -1))
+
+//  -------Part 5 --------
+
+console.log('PART 5------------')
+
+
+
+
+var removeM = function(sansM){
+
+	// var newString = sansM.remove("m")
+		
+		var output = '';
+
+	for (var i = 0; i < sansM.length; i++) {
+	
+
+			if (sansM[i] !== 'm'){
+				output = output + sansM[i]
+			}
+	};
+		return output 
+
+
+			}
+
+
+console.log(removeM('family'))
+console.log(removeM('memory'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
