@@ -102,9 +102,7 @@ var removeM = function(sansM){
 		
 		var output = '';
 
-	for (var i = 0; i < sansM.length; i++) {
-	
-
+		for (var i = 0; i < sansM.length; i++) {
 			if (sansM[i] !== 'm'){
 				output = output + sansM[i]
 			}
@@ -112,8 +110,7 @@ var removeM = function(sansM){
 		return output 
 
 
-			}
-
+}
 
 console.log(removeM('family'))
 console.log(removeM('memory'))
@@ -122,18 +119,32 @@ console.log(removeM('memory'))
 
 
 
+//  -------Part 6 --------
+
+console.log('PART 6------------')
 
 
+// bringing in the object
+var printObject =function(valuepair){
 
+// take the object and strain key from value
 
+for (var key in valuepair){
+// go into object now get the value
+	// var value = valuepair.key;
+	var  value = valuepair[key]
+console.log(key + ' is ' + value)
+}
 
+	// return the key and the value from an object and printing the result
+}
 
+printObject({ a: 10, b: 20, c: 30 })
+printObject({ firstName: 'pork', lastName: 'chops' })
 
+//  -------Part 7 --------
 
-
-
-
-
+console.log('PART 7------------')
 
 
 
