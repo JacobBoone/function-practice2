@@ -1,4 +1,4 @@
-console.log('Test Runner - If no errors, all asserts passed.');
+// console.log('Test Runner - If no errors, all asserts passed.');
 
 
 
@@ -148,8 +148,24 @@ console.log('PART 7------------')
 
 
 
+var vowels = function(stuff){
+
+	
+	var a = []
+
+	for (var i = 0; i < stuff.length; i++){
+			if (stuff[i] === 'a' || stuff[i] === 'e' || stuff[i] === 'i'|| stuff[i] === 'o' || stuff[i] === 'u'){
+				a.push(stuff[i])
+		}
+
+	}
+	return a
+
+}
 
 
+console.log(vowels('alabama'))
+console.log(vowels('What lets in youth?'))
 
 
 
