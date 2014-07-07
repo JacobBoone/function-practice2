@@ -167,5 +167,39 @@ var vowels = function(stuff){
 console.log(vowels('alabama'))
 console.log(vowels('What lets in youth?'))
 
+//  -------Part 8 --------
+
+console.log('PART 8------------')
+
+
+var twins = function(myinput){
+
+
+	for (var i = 0; i < myinput.length; i++){
+			for (var j = 1; j <= i; j++){	
+				if ([i] === [j]){
+					return true
+					}
+				else {
+					return false
+				}
+
+
+		}
+	}
+
+}
+//i want to loop thru the entire array of inputs
+// then ID if they match in pairs,
+// then return true or false values
+
+
+
+console.log(twins(['a', 'a', 'b', 'b', 'c', 'c']))
+console.log(twins(['a', 'a', 'b', 'z']))
+
+
+
+
 
 
