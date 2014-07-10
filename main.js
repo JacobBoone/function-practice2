@@ -169,9 +169,9 @@ console.log(vowels('What lets in youth?'))
 
 //  -------Part 8 --------
 
-console.log('PART 8------------')
+console.log('PART 8------------') // not currently working
 
-
+// perhaps loop thru every other one
 var twins = function(myinput){
 
 
@@ -200,6 +200,22 @@ console.log(twins(['a', 'a', 'b', 'z']))
 
 
 
+//  -------Part 9 --------
+
+console.log('PART 9------------') 
 
 
 
+var or = function(myinput){
+		for (var i = 0; i < myinput.length; i++){
+				
+				if ([i] === true){
+					return true
+					}
+				else {
+					return false
+				}
+
+	};
+};
+console.log(or([false, false, true, false]))
